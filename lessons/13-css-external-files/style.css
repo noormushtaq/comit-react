@@ -1,0 +1,8 @@
+.center-the-header h1,nav{
+            text-align: center;}
+.link-red a {
+            color:red;}
+.paragraph-font-size p{
+            font-size: 18px}
+a.current-page:visited {
+    color:#00aced;}
