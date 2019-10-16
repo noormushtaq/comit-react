@@ -3,6 +3,12 @@
   <head>
     <title>Document</title>
     <style>
+      .links a {color:#00aced;
+                  }
+               
+      .paragraphs p{font-size: 14px}
+      .center-header h1,nav{text-align: center;}
+     
       a {
         color: red;
       }
@@ -22,28 +28,35 @@
       nav a {
         color: green;
       }
+      
     </style>
   </head>
   <body>
-    <header>
-      <h1>Home Page</h1>
+    <header  class="center-header" >
+      <div >
+        <h1>Home Page</h1>
+      </div>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <nav>
+          <div class="links" > 
+           <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+           </ul>
+         </div>
+        </nav>
+        
     </header>
 
     <section>
+      <div class="paragraphs">
       <p>
         Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing
         elit. Veniam corporis aspernatur, obcaecati, voluptate veritatis ad
@@ -56,6 +69,7 @@
         Consequuntur maxime eum aut odio, ipsa saepe sed, a facere nisi
         repudiandae sequi quis.
       </p>
+      </div>
     </section>
   </body>
 </html>
