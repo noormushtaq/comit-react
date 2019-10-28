@@ -43,6 +43,7 @@ function fibonacci(number) {
     let x;
     var firstnumber = 0, secondnumber = 1
     console.log(firstnumber);
+    console.log(secondnumber);
     for(var i = 2; i <= number; i++) {
         x = firstnumber + secondnumber;
         firstnumber = secondnumber;
@@ -57,7 +58,7 @@ const name= prompt("what is your name?");
 
 let showName = function myname(){
   console.log("============");
-  console.log(`==== ${name} ====`);
+  console.log(`== ${name} ==`);
   console.log("============");
 
 return(name);
@@ -65,6 +66,4 @@ return(name);
 }
 showName();
 showName();
-//myname(name);
-//myname(name);
 
