@@ -25,16 +25,16 @@ showUser("Noor",55,1234556,33,11111,"yes");
 
 
 //function will print even numbers between 0 and 100 
-function evenNumbers(){
+let evenN=function evenNumbers(){
        for(let i=2;i<=100;i=i+2){
         document.write(i);
         document.write('<br/>');
      }  
 }
+
 //Call evenNumbers function 5 times
-let evenN;
 for(j=1;j<=5;j++){
-  evenN=evenNumbers();
+  evenN();
 }
 
 //calculate fibonacci
